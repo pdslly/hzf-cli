@@ -1,0 +1,20 @@
+{
+  "name": "hzf-cli",
+  "version": "1.0.0",
+  "description": "会找房小程序构建工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "wx": "bin/wx.js"
+  },
+  "keywords": [],
+  "author": "lixiangyang",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.2"
+  }
+}
