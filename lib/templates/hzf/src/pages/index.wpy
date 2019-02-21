@@ -63,8 +63,8 @@
 
     <panel>
       <view class="title" slot="title">测试组件Repeat</view>
-      <repeat for="{{groupList}}" index="index" item="item" key="key">
-        <group :grouplist="item" :gindex="index"></group>
+      <repeat for="" index="index" item="item" key="key">
+        <group :grouplist="item" :indexa="index"></group>
       </repeat>
     </panel>
 
@@ -88,6 +88,7 @@
   import testMixin from '../mixins/test'
 
   console.log('moduleA ignored: ', moduleA) // => moduleA ignored: {}
+
 
   export default class Index extends wepy.page {
     config = {
@@ -178,9 +179,6 @@
         promise.then((d) => {
           console.log('toast done')
         })
-      },
-      handleViewTap () {
-        console.log('log from handleViewTap ' + this.$name)
       },
       tap () {
         console.log('do noting from ' + this.$name)

@@ -2,7 +2,6 @@
   "name": "hzf-cli",
   "version": "1.0.0",
   "description": "会找房小程序构建工具",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,8 +12,14 @@
   "author": "lixiangyang",
   "license": "ISC",
   "devDependencies": {
+    "async": "^2.6.2",
     "chalk": "^2.4.2",
     "commander": "^2.19.0",
+    "consolidate": "^0.15.1",
+    "handlebars": "^4.1.0",
     "inquirer": "^6.2.2"
+  },
+  "dependencies": {
+    "metalsmith": "^2.3.0"
   }
 }

@@ -19,8 +19,7 @@
   export default class Group extends wepy.component {
     props = {
       grouplist: {},
-      gindex: {},
-      empty: {}
+      index: {}
     }
 
     components = {
@@ -29,7 +28,7 @@
     methods = {
       tap () {
         this.grouplist.name = `Parent Random(${Math.random()})`
-        console.log(`Clicked Group ${this.$gindex}, ID is ${this.grouplist.id}`)
+        console.log(`Clicked Group ${this.$index}, ID is ${this.grouplist.id}`)
       }
     }
   }
