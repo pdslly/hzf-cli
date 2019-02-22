@@ -14,3 +14,9 @@ npm install -g hzf-cli
 ``````node
 wx init project-name
 ``````
+
+## help
+``````node
+wx --help
+wx init --help
+``````
