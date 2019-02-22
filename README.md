@@ -12,7 +12,7 @@ npm install -g hzf-cli
 
 ## how to use
 ``````node
-wx init project-name
+wx init [project-name]
 ``````
 
 ## help
